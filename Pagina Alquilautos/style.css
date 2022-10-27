@@ -1,0 +1,117 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+header{
+ display: flex;
+ min-height: 80px;
+ background-color: coral;
+ justify-content: space-between;
+ align-items: center;
+ padding: 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 135px;
+    margin-right: 40px;
+}
+
+nav a{
+    font-weight: 800;
+    padding-right: 60px;
+}
+
+nav a:hover{
+    color: white;
+}
+@media(max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+}
+ }
+
+ .container{
+ max-width: 1000px;
+margin: auto;
+ }
+
+ .color-acento{color: blueviolet;}
+
+
+#somos-proya .container{
+    text-align: center;
+    padding: 50px 7px;
+}
+
+#nuestros-programas{
+    background-color:rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+    
+}  
+
+#nuestros-programas .container{
+    padding: 100px 12px;
+    
+}
+
+#nuestros-programas h2{
+    margin-top: 0;
+  
+}
+
+#nuestros-programas p{
+    display: none;
+}
+
+#nuestros-programas .carta{
+    
+}
+ 
+.alquilautos{
+    background-color: blueviolet;
+    width: 100%;
+  
+}
+.carta1 {
+    margin-left: 500px;
+    display: grid;
+    margin-bottom: 50px;
+   
+}
+ 
+.carta2 {
+    margin-left: 500px;
+    display: grid;
+    margin-bottom: 50px;
+}
+
+.carta3 {
+    margin-left: 500px;
+    display: grid;
+    margin-bottom: 50px;
+}
+
+.carta4 {
+    margin-left: 500px;
+    display: grid;
+    margin-bottom: 50px;
+}
+
+.carta5 {
+    margin-left: 500px;
+    display: grid;
+    margin-bottom: 50px;
+}
